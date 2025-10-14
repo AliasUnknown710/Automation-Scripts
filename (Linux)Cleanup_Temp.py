@@ -1,6 +1,6 @@
 import os
 
-TEMP_DIR = "/home/alex/temp"
+TEMP_DIR = "/home/username/temp"
 
 def cleanup_temp():
     for filename in os.listdir(TEMP_DIR):
