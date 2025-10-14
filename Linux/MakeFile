@@ -1,0 +1,8 @@
+install:
+	chmod +x linux/*.sh
+
+run-cleanup:
+	bash linux/disk_cleanup.sh
+
+rotate-logs:
+	bash linux/log_rotation.sh
