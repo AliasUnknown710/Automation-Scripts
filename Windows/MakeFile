@@ -1,0 +1,8 @@
+install:
+	powershell -ExecutionPolicy Bypass -File windows/installer.ps1
+
+run-cleanup:
+	powershell -ExecutionPolicy Bypass -File windows/disk_cleanup.ps1
+
+rotate-logs:
+	powershell -ExecutionPolicy Bypass -File windows/log_rotation.ps1
